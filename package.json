@@ -36,7 +36,7 @@
     "react-select": "^1.2.1",
     "reselect": "^2.5.1",
     "ron-react-autocomplete": "^4.0.5",
-    "shallowequal": "^1.0.2"
+    "sheetclip": "^0.3.0"
   },
   "devDependencies": {
     "avcoveralls": "^1.0.0",
