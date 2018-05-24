@@ -349,8 +349,8 @@ class ReactDataGrid extends React.Component {
               }
             }
           }
-
-          this.props.onGridRowsUpdated.apply(this, gridRowsUpdateEvents);
+          // this.props.onGridRowsUpdated.apply(this, gridRowsUpdateEvents);
+          gridRowsUpdateEvents.forEach(event => this.props.onGridRowsUpdated(event));
         }
       }
     }
