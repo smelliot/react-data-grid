@@ -157,7 +157,7 @@ class ReactDataGrid extends React.Component {
     let columnMetrics = this.createColumnMetrics();
     let initialState = {columnMetrics, selectedRows: [], copied: null, expandedRows: [], canFilter: false, columnFilters: {}, sortDirection: null, sortColumn: null, dragged: null, scrollOffset: 0, lastRowIdxUiSelected: -1};
     if (props.enableCellSelect) {
-      initialState.selected = {rowIdx: 0, idx: 0};
+      initialState.selected = {rowIdx: -1, idx: -1};
     } else {
       initialState.selected = {rowIdx: -1, idx: -1};
     }
